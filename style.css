@@ -1,1 +1,14 @@
 
+body{
+  background-image: linear-gradient(cyan, purple);
+    color: white;
+  font-family: arial, helvetica, sans-serif;
+  margin: 10% 20%;
+}
+
+.exp-header{
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 1px solid cyan;
+  background-color: rgba(0,0,0,0.1)
+}
