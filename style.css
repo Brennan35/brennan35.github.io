@@ -1,74 +1,31 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Brennan Heley Resume</title>
-  <link rel="stylesheet" href="style.css"/>
-  
-</head>
-<body>
-  <div>
-  <h1>Brennan Heley</h1>
-    <p>1900 E 86th st. apt. 320 •Bloomington, MN, 55425 •  (612) 250-4688 • BrennanHeley@gmail.com </p>
-  </div>
-  <div class="exp-header">
-    <h3> Recent Work Experience</h3>
-  </div>
-    <div class="img">
-    <img src="https://scontent.ffcm1-2.fna.fbcdn.net/v/t1.0-9/52105011_2272921119395854_6093634565170003968_n.jpg?_nc_cat=106&ccb=2&_nc_sid=8bfeb9&_nc_ohc=6CSoSWZjSG8AX9Cjj-L&_nc_ht=scontent.ffcm1-2.fna&oh=562f6efd5add6e19647351188d264d3d&oe=602C13AF"
- />
-    </div>
-         </div>
-  
-  <div>
-    <h4> The Shamrock Group</h4>
-      <h5> Service Technician </h5>
-    <h6> July 2012-Current</h6>
-    <ul>
-      <li>Started off as an ice hauler helping drivers load and unload ice at every stop on the route. After three years I was promoted to a service technician. 
-      </li>
-      <li>Proficient in installation and service of beverage equipment, chemical dispensers, ice machines and dishwashers.
-      </li>
-      <li>Developed fantastic relationships with customers. Many customers use me as a contact instead of their salesman. 
-      </li>
-      <li>Pulled parts from warehouse for upcoming installs or jobs, documented serial and part numbers in the system.
-      </li>
-      <li> Implemented a new labelling system with barcodes for thousands of parts in the storefront making it easier for the proper items to be ordered when we ran low.
-      </li>
-      <li> Remained a hard working and efficient employee for 8 years.
-      </li>
-    </ul>
-      </div>
-    <div>
-      <h4> Very Good Flooring, L.L.C.</h4>
-      <h5> Owner, Operator</h5>
-      <h6> 2011-2013</h6>
-      <ul>
-        <li> Developed, created, and scheduled leads for estimates. Designed floors, bathrooms, and kitchens based on customers needs and expectations.
-        </li>
-        <li>  Maintained quality across all flooring jobs.
-        </li>
-        <li>Resolved any small mistakes free of charge.
-        </li> 
-      </ul>
-        </div>
-      
-      <div class="exp-header"
-           <h3> Education</h3>
-  </div>
-  <div> 
-    <ul>
-      <li> Graduated Edina Highschool 2011. </li>
-      <li>International Draught Beverage Equipment Association certified technician 2016.</li>
-     
-      
-      </div>
-    <div>
-      <footer>
-        <a href = "mailto: brennanheley@gmail.com">Send Email</a>
-      </footer>
-    </div>
-      
-</body>
-</html>
+body{
+  background-image: linear-gradient(cyan, purple);
+    color: white;
+  font-family: arial, helvetica, sans-serif;
+  margin: 10% 20%;
+}
+
+.exp-header{
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 1px solid cyan;
+  background-color: rgba(0,0,0,0.1)
+}
+.ul[
+text-align: left;
+]
+.div{
+  text-align: left;
+  border: 4px solid gold;
+}
+img{
+  width: 250px;
+  border-radius: 50%;
+  padding: 10px;
+    float: left;
+    width: 150px;
+    
+}
+experience{
+  width: 100%;
+}
